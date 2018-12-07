@@ -1,4 +1,4 @@
-package com.aholding.framework.exceptions.domain;
+package com.acholding.framework.exceptions.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

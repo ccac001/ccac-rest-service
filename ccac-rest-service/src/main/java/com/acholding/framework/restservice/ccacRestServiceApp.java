@@ -1,4 +1,4 @@
-package com.aholding.framework.restservice;
+package com.acholding.framework.restservice;
 
 import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan({"com.aholding.framework.restservice.config"})
+@ComponentScan({"com.acholding.framework.restservice.config"})
 @EnableAutoConfiguration
 public class ccacRestServiceApp implements ApplicationContextAware {
 	

@@ -1,4 +1,4 @@
-package com.aholding.framework.exceptions;
+package com.acholding.framework.exceptions;
 
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 

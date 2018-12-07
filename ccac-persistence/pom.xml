@@ -10,13 +10,13 @@
     <relativePath>../ccac-parent-pom/pom.xml</relativePath>
   </parent>
   
-  <artifactId>ccac-rest-service</artifactId>
-  <name>CCAC Rest-Service: Rest-Service</name>
+  <artifactId>ccac-persistence</artifactId>
+  <name>CCAC Rest-Service: Persistence</name>
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
     </dependency>
     
     <!-- Internal dependencies -->
@@ -24,25 +24,5 @@
       <groupId>com.acholding.framework</groupId>
       <artifactId>ccac-exceptions</artifactId>
     </dependency>
-    <dependency>
-      <groupId>com.acholding.framework</groupId>
-      <artifactId>ccac-service</artifactId>
-    </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <goals>
-              <goal>repackage</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
 </project>

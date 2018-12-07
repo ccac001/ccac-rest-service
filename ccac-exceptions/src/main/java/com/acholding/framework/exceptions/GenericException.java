@@ -1,4 +1,4 @@
-package com.aholding.framework.exceptions;
+package com.acholding.framework.exceptions;
 
 import static org.apache.commons.lang3.StringUtils.isEmpty;
 

@@ -12,6 +12,8 @@
   <modules>
     <module>ccac-parent-pom</module>
     <module>ccac-exceptions</module>
+    <module>ccac-persistence</module>
+    <module>ccac-service</module>
     <module>ccac-rest-service</module>
   </modules>
   
