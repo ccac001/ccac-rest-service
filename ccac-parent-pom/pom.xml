@@ -19,7 +19,7 @@
       <apache-commons.version>3.7</apache-commons.version>
       <springframework.version>5.0.8.RELEASE</springframework.version>
       <springframework-boot.version>2.0.4.RELEASE</springframework-boot.version>
-      <jackson-core.version>2.9.9.2</jackson-core.version>
+      <jackson-core.version>2.9.10.4</jackson-core.version>
     </properties>
 
     <!-- ALL childs will extend these components -->
